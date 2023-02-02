@@ -70,6 +70,5 @@ df = df[cols[0:4] + [cols[-1]] + cols[4:12]]
 
 # to excel
 # df.to_excel('new.xlsx', index=False)
-
 # to txt
 df.to_csv('modifer.txt', index=False, sep="\t")
