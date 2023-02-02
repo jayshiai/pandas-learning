@@ -66,4 +66,10 @@ df = df[cols[0:4] + [cols[-1]] + cols[4:12]]
 
 
 # SAVING OUR DATA .. index = False means there won't be 0,1,2,3.. before every entry in csv
-df.to_csv('modified.csv', index=False)
+# df.to_csv('modified.csv', index=False)
+
+# to excel
+# df.to_excel('new.xlsx', index=False)
+
+# to txt
+df.to_csv('modifer.txt', index=False, sep="\t")
